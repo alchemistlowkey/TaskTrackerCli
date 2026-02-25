@@ -1,0 +1,14 @@
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Debug/net10.0/TaskTrackerCli
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Debug/net10.0/TaskTrackerCli.deps.json
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Debug/net10.0/TaskTrackerCli.runtimeconfig.json
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Debug/net10.0/TaskTrackerCli.dll
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Debug/net10.0/TaskTrackerCli.pdb
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/obj/Debug/net10.0/TaskTrackerCli.GeneratedMSBuildEditorConfig.editorconfig
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/obj/Debug/net10.0/TaskTrackerCli.AssemblyInfoInputs.cache
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/obj/Debug/net10.0/TaskTrackerCli.AssemblyInfo.cs
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/obj/Debug/net10.0/TaskTrackerCli.csproj.CoreCompileInputs.cache
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/obj/Debug/net10.0/TaskTrackerCli.dll
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/obj/Debug/net10.0/refint/TaskTrackerCli.dll
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/obj/Debug/net10.0/TaskTrackerCli.pdb
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/obj/Debug/net10.0/TaskTrackerCli.genruntimeconfig.cache
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/obj/Debug/net10.0/ref/TaskTrackerCli.dll
