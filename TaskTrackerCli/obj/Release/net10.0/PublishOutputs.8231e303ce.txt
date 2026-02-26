@@ -1,0 +1,5 @@
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Release/net10.0/publish/TaskTrackerCli
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Release/net10.0/publish/TaskTrackerCli.dll
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Release/net10.0/publish/TaskTrackerCli.deps.json
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Release/net10.0/publish/TaskTrackerCli.runtimeconfig.json
+/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Release/net10.0/publish/TaskTrackerCli.pdb

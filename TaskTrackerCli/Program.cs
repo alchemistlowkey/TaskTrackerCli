@@ -276,22 +276,20 @@ if (command == "list")
             taskItems = JsonSerializer.Deserialize<List<TaskItem>>(json, jsonOptions) ?? [];
         }
 
+        Console.WriteLine($"{"Id",-3} | {"Description",-30} | {"Status",-15} | {"Created At",-25} | {"Updated At"}");
+        Console.WriteLine(new string('-', 110));
+
         foreach (var taskItem in taskItems)
         {
-            Console.WriteLine($"{taskItem.Id} - {taskItem.Description} - {taskItem.Status} - {taskItem.CreatedAt} - {taskItem.UpdatedAt}");
+            Console.WriteLine($"{taskItem.Id,-3} | {taskItem.Description,-30} | {taskItem.Status,-15} | {taskItem.CreatedAt,-25} | {taskItem.UpdatedAt}");
         }
 
-        File.WriteAllText(FilePath, JsonSerializer.Serialize(taskItems, jsonOptions));
     }
 
-}
-
-if (command == "list")
-{
     if (args.Length > 1)
     {
         var status = args[1];
-        if (status != "todo" && status != "in-progress" && status != "done")
+        if (status.Trim().ToLower() != "todo" && status.Trim().ToLower() != "in-progress" && status.Trim().ToLower() != "done")
         {
             throw new ArgumentException("Invalid status format");
         }
@@ -308,11 +306,14 @@ if (command == "list")
             taskItems = JsonSerializer.Deserialize<List<TaskItem>>(json, jsonOptions) ?? [];
         }
 
+        Console.WriteLine($"{"Id",-3} | {"Description",-30} | {"Status",-15} | {"Created At",-25} | {"Updated At"}");
+        Console.WriteLine(new string('-', 110));
+
         foreach (var taskItem in taskItems)
         {
-            if (taskItem.Status == status)
+            if (taskItem.Status.Trim().ToLower() == status.Trim().ToLower())
             {
-                Console.WriteLine($"{taskItem.Id} - {taskItem.Description} - {taskItem.Status} - {taskItem.CreatedAt} - {taskItem.UpdatedAt}");
+                Console.WriteLine($"{taskItem.Id,-3} | {taskItem.Description,-30} | {taskItem.Status,-15} | {taskItem.CreatedAt,-25} | {taskItem.UpdatedAt}");
             }
         }
 

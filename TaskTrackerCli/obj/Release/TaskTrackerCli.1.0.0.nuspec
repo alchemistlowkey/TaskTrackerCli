@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TaskTrackerCli</id>
+    <version>1.0.0</version>
+    <authors>TaskTrackerCli</authors>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" commit="aeb26e88e3af59de98975dd36702ead7b8c52149" />
+  </metadata>
+  <files>
+    <file src="/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/obj/Release/net10.0/DotnetToolSettings.xml" target="tools/net10.0/any/DotnetToolSettings.xml" />
+    <file src="/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Release/net10.0/publish/TaskTrackerCli.deps.json" target="tools/net10.0/any/TaskTrackerCli.deps.json" />
+    <file src="/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Release/net10.0/publish/TaskTrackerCli.dll" target="tools/net10.0/any/TaskTrackerCli.dll" />
+    <file src="/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Release/net10.0/publish/TaskTrackerCli.pdb" target="tools/net10.0/any/TaskTrackerCli.pdb" />
+    <file src="/home/alchemistlowkey/Desktop/csharp/TaskTrackerCli/TaskTrackerCli/bin/Release/net10.0/publish/TaskTrackerCli.runtimeconfig.json" target="tools/net10.0/any/TaskTrackerCli.runtimeconfig.json" />
+  </files>
+</package>
