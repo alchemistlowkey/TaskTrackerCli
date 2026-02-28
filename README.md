@@ -11,7 +11,7 @@ A simple command-line task tracker built with C# and .NET. Tasks are persisted l
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/alchemistlowkey/TaskTrackerCli.git
 cd TaskTrackerCli/TaskTrackerCli
 ```
 
